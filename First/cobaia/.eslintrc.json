@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "google"
+    ],
+    "rules": {
+        "no-var": "off",
+        "no-console": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "comma-dangle": "off"
+    }
+}
