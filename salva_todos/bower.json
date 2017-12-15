@@ -1,0 +1,22 @@
+{
+  "name": "05-nfcapp",
+  "homepage": "https://github.com/profmarciotorres/dadm-2017-2",
+  "authors": [
+    "marciojrtorres <marciojrtorres@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.100.1"
+  }
+}

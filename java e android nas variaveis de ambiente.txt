@@ -1,0 +1,14 @@
+java e android nas variaveis de ambiente
+
+talvez tenha que baixar o gradle e tbm colocar nas variaveis de ambiente
+
+npm install package.json
+
+cordova platform add android
+
+sdkmanager "platforms;android-25" "build-tools;27.0.1" 
+
+com o cabo conectado e com o modo desenvolvedor ativado com o modo debug
+	cordova run android --device 
+
+
