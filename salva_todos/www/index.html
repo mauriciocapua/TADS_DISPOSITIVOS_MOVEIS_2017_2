@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />    
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="vendor/materialize/css/materialize.min.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>NFC</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="" id="reload" class="brand-logo center">NFCApp<i class="material-icons">autorenew</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
+
+  <table id="tableCards" class="bordered striped centered">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Descrição</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody >
+      <tr>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+  <img src="" alt="">
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="vendor/materialize/js/materialize.min.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCmEK7UKhPU9r4rJVTgbSHNJ4gNQw503RI",
+    authDomain: "salvatodos-192f0.firebaseapp.com",
+    databaseURL: "https://salvatodos-192f0.firebaseio.com",
+    projectId: "salvatodos-192f0",
+    storageBucket: "salvatodos-192f0.appspot.com",
+    messagingSenderId: "577304112793"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+
+</body>
+</html>

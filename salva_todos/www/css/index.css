@@ -1,0 +1,20 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#incrementar {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+div.numero {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 5em;
+  text-align: center;
+}
